@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-this is just a test page to see what happens
+Some of the academic, personal projects that I have written about.
 
 <ul>
   {% for project in site.projects %}
