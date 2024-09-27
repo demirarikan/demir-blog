@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Would you let a robot get this close to your neck?"
-date:   2024-07-10 18:02:28 -0400
+date:   2022-07-15 18:02:28 -0400
 categories: jekyll update
 ---
 <figure>
