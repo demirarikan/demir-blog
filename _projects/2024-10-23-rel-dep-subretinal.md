@@ -7,7 +7,7 @@ categories: jekyll update
 
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dXAKIgrdcyM?si=tsuas3jIuItiZdgu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: auto;"></iframe>
-    <figcaption>
+    <figcaption style="text-align: center;">
         OCT image recording of an insertion done using our technique with a target at 50% depth of the retina. The point clouds and the segmentation results are shown after the OCT images. Pink layer between the green (ILM) and blue (RPE) is the virtual target layer that adapts to deformations and enables accurate needle placement. 
     </figcaption>
 </figure>
@@ -18,7 +18,7 @@ Thankfully, I was able to join Prof. Iordachita and his team, who provided me al
 
 <figure>
     <img src="../../assets/master-thesis/experimental-setup.jpg" style="height: 400px; display: block; margin: auto;">
-    <figcaption>
+    <figcaption style="text-align: center;">
     Our experimetal setup. (a)SHER (b)Leica OCT microscope (c)100 micron surgical needle (d)Syringe pump to perform injections (d)Pig eye cut in half
     </figcaption>
 </figure>
@@ -37,7 +37,7 @@ But due to the deformations that happen when the needle pushes against the tissu
 
 <figure>
     <img src="../../assets/master-thesis/rel-vs-fix-combined-dashed.jpg" alt="Needle insertion with fixed target point">
-    <figcaption>Images from a needle insertion with a fixed target point (yellow). The relative target (pink) deforms to follow the shape of the ILM (green) and RPE (blue) layers.</figcaption>
+    <figcaption style="text-align: center;">Images from a needle insertion with a fixed target point (yellow). The relative target (pink) deforms to follow the shape of the ILM (green) and RPE (blue) layers.</figcaption>
 </figure>
 
 So we decided define the target with a relative depth between the ILM and RPE layers instead of a fixed point in space. This simplifies the target point into target layer but allows the target to move with the deformations. Since the injected drugs already cover a lot of space, the exact injection location can be moved a little without issues. We decided to call this layer the virtual target layer. 
@@ -49,7 +49,7 @@ Finally, putting everything together, our system takes B<sup>5</sup>-scans of th
 
 <figure>
     <img src="../../assets/master-thesis/method-steps.png" alt="Overview of our real time needle insertion control pipeline">
-    <figcaption>
+    <figcaption style="text-align: center;">
         Overview of our real-time needle insertion pipeline. (a) B5-scan, consisting of five 2D B-scans, showing different cross sections of the needle
         and retina. (b) Segmented B-scans using our segmentation network, needle top surface (red), ILM (green), RPE (blue). (c) Point cloud generated from
         segmentation results without processing. (d) Point cloud generated from segmentation results after processing with inpainted ILM and RPE layers, removed
