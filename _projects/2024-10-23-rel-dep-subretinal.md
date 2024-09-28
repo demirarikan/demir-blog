@@ -17,7 +17,7 @@ You'll need hundreds of man hours, multiple Phd level engineers, an extremely pr
 Thankfully, I was able to join Prof. Iordachita and his team, who provided me all of the things above, to tackle this problem. How to place a needle inside a patients retina with micrometer accuracy using robotics and OCT imaging for subretinal injections?
 
 <figure>
-    <img src="../../assets/master-thesis/experimental-setup.jpg" style="height: 400px; display: block; margin: auto;">
+    <img src="{{site.baseurl}}/assets/master-thesis/experimental-setup.jpg" style="height: 400px; display: block; margin: auto;">
     <figcaption style="text-align: center;">
     Our experimetal setup. (a)SHER (b)Leica OCT microscope (c)100 micron surgical needle (d)Syringe pump to perform injections (d)Pig eye cut in half
     </figcaption>
@@ -36,7 +36,7 @@ Our initial idea was to train a segmentation network to detect the needle tip in
 But due to the deformations that happen when the needle pushes against the tissue, the initially selected target ended up moving to another spot and the needle would not be able to puncture the ILM layer ending up outside the retina. 
 
 <figure>
-    <img src="../../assets/master-thesis/rel-vs-fix-combined-dashed.jpg" alt="Needle insertion with fixed target point">
+    <img src="{{site.baseurl}}/assets/master-thesis/rel-vs-fix-combined-dashed.jpg" alt="Needle insertion with fixed target point">
     <figcaption style="text-align: center;">Images from a needle insertion with a fixed target point (yellow). The relative target (pink) deforms to follow the shape of the ILM (green) and RPE (blue) layers.</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ In order to still have real time image data we could not take too many images. S
 Finally, putting everything together, our system takes B<sup>5</sup>-scans of the needle insertion, the resulting OCT volume is segmented using U-Net segmentation model that was trained on a custom dataset labelled by me. The segmentation results are then converted into a 3D point cloud and further processed to calculate the position of the virtual target layer. We can then select the tip points of the needle in the point cloud and move the needle along its needle axis until the virtual target layer is reached. 
 
 <figure>
-    <img src="../../assets/master-thesis/method-steps.png" alt="Overview of our real time needle insertion control pipeline">
+    <img src="{{site.baseurl}}/assets/master-thesis/method-steps.png" alt="Overview of our real time needle insertion control pipeline">
     <figcaption style="text-align: center;">
         Overview of our real-time needle insertion pipeline. (a) B5-scan, consisting of five 2D B-scans, showing different cross sections of the needle
         and retina. (b) Segmented B-scans using our segmentation network, needle top surface (red), ILM (green), RPE (blue). (c) Point cloud generated from

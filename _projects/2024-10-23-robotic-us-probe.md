@@ -17,7 +17,7 @@ In ultrasonic thyroid scans the ultrasound (US) probe is placed on the patients 
 This was also my first experience with 3D printing, designing and printing a camera holder for the other 3D printed US probe end effector of the robotic arm. 
 
 <figure>
-    <img src="../../assets/kap/3d-camera-holder.png" style="height: 350px; display: block; margin: auto;">
+    <img src="{{site.baseurl}}/assets/kap/3d-camera-holder.png" style="height: 350px; display: block; margin: auto;">
     <figcaption style="text-align: center;">
     My first 3D printed object is the white camera holder attached to the ultrasound probe end effector.
     </figcaption>
@@ -30,7 +30,7 @@ thyroid_x = neck_keypoint.x - distance(shoulder_keypoint.x, neck_keypoint.x) * 0
 thyroid_y = neck_keypoint.y - distance(nose_keypoint.y, neck_keypoint.y) * 0.3
 ```
 <figure>
-    <img src="../../assets/kap/openpose-view.png" style="height: 350px; display: block; margin: auto;">
+    <img src="{{site.baseurl}}/assets/kap/openpose-view.png" style="height: 350px; display: block; margin: auto;">
     <figcaption style="text-align: center;">
     Initial camera view and OpenPose keypoints.
     </figcaption>
