@@ -2,8 +2,7 @@
 layout: post
 title:  "Would you let a robot get this close to your neck?"
 date:   2022-07-15 18:02:28 -0400
-categories: project
-published: true
+categories: 
 
 ---
 <figure>
