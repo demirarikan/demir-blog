@@ -16,8 +16,9 @@ You'll need hundreds of man hours, multiple Phd level engineers, an extremely pr
 
 Thankfully, I was able to join Prof. Iordachita and his team, who provided me all of the things above, to tackle this problem. How to place a needle inside a patients retina with micrometer accuracy using robotics and OCT imaging for subretinal injections?
 
+
 <figure>
-    <img src="{{site.baseurl}}/assets/master-thesis/experimental-setup.jpg" style="height: 400px; display: block; margin: auto;">
+    <img src="{{site.baseurl}}/assets/master-thesis/experimental-setup.jpg" style="width: 100%; max-width: 400px; height: auto; display: block; margin: auto;">
     <figcaption style="text-align: center;">
     Our experimetal setup. (a)SHER (b)Leica OCT microscope (c)100 micron surgical needle (d)Syringe pump to perform injections (d)Pig eye cut in half
     </figcaption>

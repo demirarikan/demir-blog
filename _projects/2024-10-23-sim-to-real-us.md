@@ -19,7 +19,7 @@ Ultrasound (US) images are inconsistent compared to other image modalities. They
 Furthermore, this model allows for the manipulation of the semantic and stochastic representations of the input to change the different attributes of the output image. This ability of the model was used in two different ways in this work for simulated to real ultrasound translation. 
 
 <figure>
-    <img src="{{site.baseurl}}/assets/sim-to-real-us/diffae_overview.jpg" style="height: 300px; display: block; margin: auto;">
+    <img src="{{site.baseurl}}/assets/sim-to-real-us/diffae_overview.jpg" style="width: 100%; max-width: auto; height: auto; display: block; margin: auto;">
     <figcaption style="text-align: center;">
     Overview of the original diffusion autoencoder architecture.
     </figcaption>
@@ -59,7 +59,7 @@ Two classifiers were trained for this method, one using binary cross entropy (BC
 Overall, this project was very fun to work on. Unfortunately, due to limited amount of data it was not possible to reliably generate realistic looking US images. The differences between the simulated and real US images are too much and the network is easily able to differentiate between them. This becomes more clear when looking at the t-SNE of the simulated and real vector representations. 
 
 <figure>
-    <img src="{{site.baseurl}}/assets/sim-to-real-us/tsne.png" style="height: 300px; display: block; margin: auto;">
+    <img src="{{site.baseurl}}/assets/sim-to-real-us/tsne.png" style="width: 100%; max-width: 400px; height: auto; display: block; margin: auto;">
     <figcaption style="text-align: center;">
     2D visualization of the real (blue) and simulated (orange) US image vector representations. There is a clear divide between the real simulated images in the latent space making it not possible for meaningful interpolation or manipulation of images. 
     </figcaption>

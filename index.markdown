@@ -5,7 +5,7 @@
 layout: default
 ---
 
-<img src="assets/images/IMG_8381.JPG" style="width: 300px; height: 300px; object-fit: cover; border-radius: 50%; float: right; padding-left:15px">
+<img src="assets/images/IMG_8381.JPG" style="max-width: 250px; height: auto; object-fit: cover; border-radius: 50%; float: right; padding-left:10px">
 
 I'm Demir, a computer science Masters student at [TUM](https://www.cit.tum.de/en/cit/home/). 
 
