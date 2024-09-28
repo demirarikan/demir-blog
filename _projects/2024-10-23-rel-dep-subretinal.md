@@ -2,7 +2,8 @@
 layout: post
 title:  "How do you place a needle accurately within hundredths of a milimeter inside an eye?"
 date:   2024-07-10 18:02:28 -0400
-categories: jekyll update
+categories: project
+published: true
 ---
 
 <figure>

@@ -2,7 +2,9 @@
 layout: post
 title:  "Diffusion Models for Simulated-to-Real US Image Conversion"
 date:   2024-03-21 18:02:28 -0400
-categories: jekyll update
+categories: project 
+published: true
+
 ---
 
 Ultrasound (US) images are inconsistent compared to other image modalities. They could vary depending on the operator, machine or even the pressure applied. Hence it is difficult to gather large consistent datasets for computer vision applications. One way to quickly generate consistent US images is to simulate them from 3D CT scans. But the simulated images do not look realistic enough and lack the fine grain details such as specular reflections or noise. 

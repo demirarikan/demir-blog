@@ -2,7 +2,9 @@
 layout: post
 title:  "Would you let a robot get this close to your neck?"
 date:   2022-07-15 18:02:28 -0400
-categories: jekyll update
+categories: project
+published: true
+
 ---
 <figure>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S8de9J3oR5Q?si=ZRlMYy7b4MminG6x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display: block; margin: auto;"></iframe>
