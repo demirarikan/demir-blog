@@ -38,8 +38,8 @@ collections:
     permalink: /projects/:path/
 
 include: 
-  - _posts
-  - _projects
+  - _posts/
+  - _projects/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
